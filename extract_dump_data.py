@@ -424,7 +424,7 @@ def mod_pbc(rvec, xBounds, yBounds, zBounds):
     return rvec
 
 if __name__ == "__main__":
-    dataStream = LAMMPSDumpDataStream('dump.AuEtOHThermalizedNoForce')
+    dataStream = LAMMPSDumpDataStream('LAMMPS_test.dump')
     surfDistCutoff = 6
     xbs = dataStream.xBounds
     ybs = dataStream.yBounds
